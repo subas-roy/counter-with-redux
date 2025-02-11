@@ -4,5 +4,6 @@
  * 2. npm install @reduxjs/toolkit react-redux
  * 3. Check store is connected with app (redux dev tools) "@@INIT"
  * 4. Create counter slice
+ * 5. Connect store with counter reducer from counter slice and check
  *
  */
