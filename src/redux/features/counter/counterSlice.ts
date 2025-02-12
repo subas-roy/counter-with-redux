@@ -9,9 +9,9 @@ const counterSlice = createSlice({
   initialState,
   reducers: {
     // action 1
-    increment: (state) => {
+    increment: (state, action) => {
       // busyness logic
-      state.count = state.count + 1;
+      state.count = state.count + action.payload;
     },
     // action 2
     decrement: (state) => {
