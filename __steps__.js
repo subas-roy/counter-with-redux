@@ -6,5 +6,6 @@
  * 4. Create counter slice
  * 5. Connect store with counter reducer from counter slice and check
  * 6. Write actions in reducers in slice and export
+ * 7. Dispatch actions in component using useDispatch()
  *
  */
